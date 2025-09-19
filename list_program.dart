@@ -9,10 +9,10 @@ void main() {
     numbers.add(value);
   }
 
-  // Sum of odd numbers
+
   int sumOdd = numbers.where((n) => n.isOdd).reduce((a, b) => a + b);
 
-  // Smallest number
+
   int smallest = numbers.reduce((a, b) => a < b ? a : b);
 
   print("Sum of odd numbers: $sumOdd");
